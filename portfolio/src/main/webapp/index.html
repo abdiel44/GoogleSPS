@@ -1,19 +1,120 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Resume</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="resume-header" class="row">
+      <div class="col-3">
+        <img id="profile-picture" src="./img/foto2x2.png" alt="">
+      </div>
+      <div class="col">
+        <h1>Steven Matias Perez</h1>
+        <h2>Computer Engineering Student</h2>
+        <ul>
+          <li>Mail:  stevenmatias2544@gmail.com</li>
+          <li>Phone: (787)-462-7560</li>
+          <li>LinkedIn: <a href=" https://www.linkedin.com/in/steven-mat%C3%ADas-p%C3%A9rez-60b711167/"> <img  class = "social-img"src="./img/linkedinLogo.png"></a></li>
+          <li> GitHub: <a href="https://github.com/abdiel44"> <img  class = "social-img"src="./img/githubLogo.png"> </a> </li>
+        </ul>
+      </div>
     </div>
-  </body>
+
+    <div class="row">
+      <div class="col">
+        <h2 class="border-bottom-gray" >A Little Bit About Me</h2>
+        <p>
+          I am from Bayamon, Puerto Rico. I am currently pursuing a bachelor's degree in Computer Engineering at the Interamerican University of Puerto Rico. In my free time I take courses related to web development. Thanks to these courses I have been able to get my first job in the industry as a junior web developer. My long term goal is to become an expert in topics related to artificial intelligence and quantum computing.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div>
+          <h3 class="border-bottom-gray" >Work Experience</h3>
+          <ul>
+            <li class="work-position">
+              <h5>PHP Backend Developer</h5>
+              <p>Re-engineering of a platform to offer tutoring to students of the Puerto Rico Department of Education.</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+            <h3 class="border-bottom-gray">Projects</h3>
+            <div class="project">
+                <h5>Mamboo</h5>
+                <div class="row">
+                    <div class="col-3">
+                        <img id="profile-picture" src="./img/mamboo.JPG" alt="">
+                      </div>
+                      <div class="col">
+                        <p>A prototype of a social network called "Mamboo" that was created with the purpose of applying all the knowledge acquired in the Object Oriented Programming class. </p>
+                        <strong>Technologies used:</strong>
+                        <span class="badge badge-secondary">Java</span>
+                      </div>
+                </div>
+            </div>
+            <div class="project">
+                <h5>CoRE-Data-Analyzer---Puerto-Rico-COVID-19</h5>
+                <div class="row">
+                    <div class="col-3">
+                        <img id="profile-picture" src="./img/Core-Data-Analyzer.jpg" alt="">
+                      </div>
+                      <div class="col">
+                        <p>Prototype of Data Analysis Tool called CoRE COVID-19 Dashboard and Analyzer</p>
+                        <strong>Technologies used:</strong>
+                        <span class="badge badge-secondary">C++</span>
+                      </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <h3 class="border-bottom-gray" >Skills & Tools</h3>
+        <h4>Backend</h4>
+        <ul>
+          <li>PHP</li>
+          <li>Java</li>
+          <li>C++</li>
+          <li>SQL</li>
+        </ul>
+        <h4>Frontend</h4>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+        <h4>Frameworks</h4>
+        <ul>
+          <li>Laravel</li>
+          <li>Bootstrap</li>
+        </ul>
+        <h3 class="border-bottom-gray" >Languages</h3>
+        <ul>
+          <li>Spanish</li>
+          <li>English</li>
+        </ul>
+      </div>
+    </div>
+    <div id="resume-footer" class="row">
+      <div class="col">
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
