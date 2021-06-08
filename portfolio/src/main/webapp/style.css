@@ -32,3 +32,9 @@
 .project {
     margin-bottom: 40px;
 }
+
+header li 
+{
+    padding-top:2% ;
+    padding-bottom:2%;
+}
