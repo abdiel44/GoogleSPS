@@ -68,3 +68,10 @@ header li
     padding-bottom:2%;
     list-style: none
 }
+
+.skill__anchor
+{
+    color:black;
+    border-radius: 10%;
+    background-color: gainsboro;
+}
