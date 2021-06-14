@@ -1,4 +1,4 @@
- *{
+ * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -18,31 +18,26 @@
     text-align: center;
 }
 
-.main-nav
-{ /* Para quitarle los estilos a las listas*/
+.main-nav{
     background-color: darkgray;
 }
 
-.main-nav__item
-{
+.main-nav__item{
  display: inline-block;
 }
 
-.main-nav__item a 
-{
-    color:black;
+.main-nav__item a {
+    color: black;
     padding-left: 100px;
     padding-right: 100px;
     text-decoration: none;
 }
 
-.main-nav__item a:hover
-{
-    color:white
+.main-nav__item a:hover{
+    color: white;
 }
 
-.social-img
-{
+.social-img{
 	width: 32px;
     height: 32px;
     display: inline-block;
@@ -64,14 +59,13 @@
 
 header li 
 {
-    padding-top:2% ;
-    padding-bottom:2%;
-    list-style: none
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    list-style: none;
 }
 
-.skill__anchor
-{
-    color:black;
+.skill__anchor{
+    color: black;
     border-radius: 10%;
     background-color: gainsboro;
 }
