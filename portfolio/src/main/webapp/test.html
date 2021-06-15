@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Resume</title>
+    </head>
+
+    <body>
+        <main class="container">
+
+            <header>
+
+              <nav>
+                    <ul class="main-nav">
+                        <li class="main-nav__item"><a href="index.html">Home</a></li>
+                        <li class="main-nav__item"><a href="hobby.html">My Hobby</a></li>
+                        <li class="main-nav__item"><a href="">SPS test</a></li>
+                        <li class="main-nav__item"><a href="">Contact me!</a></li>
+                    </ul>
+              </nav>
+
+                <section id="resume-header" class="row">
+
+                  <figure class="col-3">
+                      <img id="profile-picture" src="./img/foto2x2.png" alt="">
+                  </figure>
+
+                  <article class="col">
+                      <h1>Steven Matias Perez</h1>
+                      <h2>Computer Engineering Student</h2>
+                      <ul>
+                          <li> <b>Mail:</b>  stevenmatias2544@gmail.com</li>
+                          <li> <b>Phone:</b> (787)-462-7560</li>
+                          <li> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/steven-mat%C3%ADas-p%C3%A9rez-60b711167/"> <img  class="social-img"src="./img/linkedinLogo.png"></a></li>
+                          <li> <b>GitHub:</b> <a href="https://github.com/abdiel44"> <img  class="social-img"src="./img/githubLogo.png"> </a> </li>
+                      </ul>
+                  <article>
+                  
+                </section>
+
+            </header>
+
+            <section class="row">
+                <article class="col">
+                    <h2 class="border-bottom-gray" >Skill</h2>
+                    <ul>
+                            <li class="work-position">
+                            <h5>Servlets</h5>
+                            <p>The first thing we will learn from week 2 of the SPS is about Servlets. Servlets is a Java class with functions that run when a client requests a particular URL. The information on the screen that you will see when press <a href="/hello" class="skill__anchor">here</a> will be generated using the concepts learned about Servlets.</p>
+                            </li>
+
+                            <li class="work-position">
+                            <h5>Fetch</h5>
+                            <p>The second thing we will learn from week 2 of the SPS is about fetch(). The fetch() function lets you write JavaScript code that requests content from a particular URL.This is useful for separating your static and dynamic content, because it means you can put static content in an HTML file, and you can use the fetch() function to request dynamic content from the server.</p>
+                            <p>Click this <input type="button" value="button" onclick="showExampleFetch();"> to see an example!</p>
+                            <p id="fetch-container"></p>
+                            </li>
+                   </ul>
+                </article>
+            </section>
+
+            
+
+            <footer id="resume-footer" class="row">
+                <article class="col">
+                    @Steven A. Matias Perez<br>
+                            2021
+                </article>
+            </footer>
+        </main>
+    <script src="./fetch.js"></script>
+    </body>
+</html>

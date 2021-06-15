@@ -1,9 +1,71 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+ * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    } 
+    
+#resume-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#greeting-container {
-  margin-top: 20px;
+#profile-picture {
+    width: 100%;
+}
+
+#resume-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-nav{
+    background-color: darkgray;
+}
+
+.main-nav__item{
+ display: inline-block;
+}
+
+.main-nav__item a {
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: white;
+}
+
+.social-img{
+	width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.border-bottom-gray {
+    padding-bottom: 10px;
+    border-bottom: solid 1px darkgray;
+}
+
+.work-position {
+    margin-bottom: 40px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+header li 
+{
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    list-style: none;
+}
+
+.skill__anchor{
+    color: black;
+    border-radius: 10%;
+    background-color: gainsboro;
 }
