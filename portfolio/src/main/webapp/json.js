@@ -6,16 +6,16 @@ async function showExampleJSON()
 
   const jsonListElement = document.getElementById('json-container');
 
-  JsonListElement.appendChild(
+  jsonListElement.appendChild(
       createListh5('My Car'));
 
-  JsonListElement.appendChild(
+  jsonListElement.appendChild(
       createListElement('Brand: '  + jsonData.brand));
-  JsonListElement.appendChild(
+  jsonListElement.appendChild(
       createListElement('Model: ' + jsonData.model));
-  JsonListElement.appendChild(
+  jsonListElement.appendChild(
       createListElement('Color: ' + jsonData.color));
-  JsonListElement.appendChild(
+  jsonListElement.appendChild(
       createListElement('Year: '  + jsonData.year));
 }
 
