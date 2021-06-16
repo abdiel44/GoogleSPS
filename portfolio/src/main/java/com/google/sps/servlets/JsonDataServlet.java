@@ -15,10 +15,10 @@ public final class JsonDataServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-    String Brand = "Toyota";
-    String Model = "Corolla";
-    String Color = "Red";
-    Integer Year = 2019;
+    String brand = "Toyota";
+    String model = "Corolla";
+    String color = "Red";
+    int year = 2019;
 
     // Convert the jsonData to JSON
     JsonData jsonData = new JsonData(Brand,Model,Color,Year);
