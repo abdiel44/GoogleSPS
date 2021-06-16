@@ -9,10 +9,10 @@ public class JsonData
 
     public JsonData(String brand, String model, String color, int year)
     {
-        this.brand  = brand ;
+        this.brand = brand;
         this.model = model;
         this.color = color;
-        this.year  = year ;
+        this.year  = year;
     }
 
     public String getBrand()
