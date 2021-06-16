@@ -21,7 +21,7 @@ public final class JsonDataServlet extends HttpServlet {
     int year = 2019;
 
     // Convert the jsonData to JSON
-    JsonData jsonData = new JsonData(Brand,Model,Color,Year);
+    JsonData jsonData = new JsonData(brand,model,color,year);
 
     String jsonUsingGson = convertToJsonUsingGson(jsonData);
 
