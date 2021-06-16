@@ -12,7 +12,7 @@ public class JsonData
         this.brand = brand;
         this.model = model;
         this.color = color;
-        this.year  = year ;
+        this.year  = year;
     }
 
     public String getBrand()
