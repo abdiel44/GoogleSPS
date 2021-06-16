@@ -5,9 +5,9 @@ public class JsonData
     private final String brand;
     private final String model;
     private final String color;
-    private final Integer year;
+    private final int year;
 
-    public JsonData(String brand, String model, String color, Integer year)
+    public JsonData(String brand, String model, String color, int year)
     {
         this.brand  = brand ;
         this.model = model;
@@ -30,7 +30,7 @@ public class JsonData
         return this.color;
     }
 
-    public Integer getYear()
+    public int getYear()
     {
         return this.year;
     }
