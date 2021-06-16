@@ -5,7 +5,6 @@ async function showExampleJSON()
   const jsonData = await responseFromServer.json();
 
   const JsonListElement = document.getElementById('json-container');
-  //JsonListElement.innerHTML = '';
 
   JsonListElement.appendChild(
       createListh5('My Car'));
