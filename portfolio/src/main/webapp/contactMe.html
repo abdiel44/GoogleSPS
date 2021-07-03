@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Resume</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                    <ul class="main-nav">
+                        <li class="main-nav__item"><a href="index.html">Home</a></li>
+                        <li class="main-nav__item"><a href="hobby.html">My Hobby</a></li>
+                        <li class="main-nav__item"><a href="test.html">SPS test</a></li>
+                        <li class="main-nav__item"><a href="contactMe.html">Contact me!</a></li>
+                    </ul>
+              </nav>
+        </header>
+        <main class="container">
+
+            <section class="row">
+                <article class="col" id="resume-footer">
+                    <h3>Let's keep in touch!</h3>
+                    <p  class="border-bottom-gray">
+                     Add your personal information so I know you were here and add you to my contact list.
+                    </p>
+                </article>
+            </section>
+            
+            <form class="row" action="form-submit" method="POST">
+
+              <label for="Fname" class="col"> <!--el label es el contenedor de nuestros inputs-->
+                 <span>Firt Name:</span> <!--Span es para ingresar una pregunta o un encabezado a el label-->
+                 <input type="text" name="Fname" id="Fname" placeholder="Your  First Name" autocomplete="given-name" required/> <!--placeholder nos ayuda a poner un ejemplo del dato que esperamos recibir-->
+              </label>
+
+              <label for="Lname" class="col"> <!--el label es el contenedor de nuestros inputs-->
+                 <span>Last Name:</span> <!--Span es para ingresar una pregunta o un encabezado a el label-->
+                 <input type="text" name="Lname" id="Lname" placeholder="Your Last Name" autocomplete="family-name" required/> <!--placeholder nos ayuda a poner un ejemplo del dato que esperamos recibir-->
+              </label>
+
+              <label for="email" class="col">
+                  <span>Email:</span>
+                  <input type="email" name="email" id="email" placeholder="menganito@gmail.com" autocomplete="email" required/>
+              </label>
+
+              <label for="phone" class="col">
+                  <span>Phone:</span>
+                  <input type="tel" name="phone" id="phone" placeholder="000-000-0000" autocomplete="tel" required/>
+              </label> 
+
+              <label for="Fb" class="col">
+                  <span>Feedback:</span>
+                  <input type="text" name="Fb" id="Fb" placeholder="Tell us what you thought of this portfolio! Write here your recommendations, advice or any constructive comments you may have!"/>
+              </label>
+        
+              <input type="submit" class="col">
+            </form>
+        </main>
+        <footer id="resume-footer" class="row">
+            <article class="col">
+                @Steven A. Matias Perez<br>
+                        2021
+            </article>
+        </footer>
+    </body>
+
+</html>
