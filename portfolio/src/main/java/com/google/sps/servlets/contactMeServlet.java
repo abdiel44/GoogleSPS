@@ -28,6 +28,6 @@ public class contactMeServlet extends HttpServlet {
 
 
     // Write the value to the response so the user can see it.
-    response.sendRedirect("https://8080-cs-557783319842-default.cs-us-east1-omte.cloudshell.dev/contactMe.html");
+    response.sendRedirect("http://smatias-sps-summer21.appspot.com/contactMe.html");
   }
 }
